@@ -4,7 +4,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                sdgsdsdgsdg
+                Lorem Ipsum
             </div>
         )
     }
