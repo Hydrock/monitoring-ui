@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "./scripts/index.js start",
-    "start-frontend": "./scripts/index.js start-frontend"
+    "start-frontend": "./scripts/index.js start-frontend",
+    "start-backend": "./scripts/index.js start-backend",
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,14 @@
   },
   "homepage": "https://github.com/Hydrock/monitoring-ui#readme",
   "devDependencies": {
+    "babel-core": "^7.0.0-0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "arui-presets": "^5.0.2",
     "arui-presets-ts": "^2.0.2",
     "babel-loader": "^8.0.4",
+    "config": "^2.0.1",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "postcss-loader": "^3.0.0",
@@ -33,7 +39,17 @@
   },
   "dependencies": {
     "arui-feather": "^12.11.3",
+    "babel-7-jest": "^21.3.3",
+    "babel-jest": "^23.6.0",
+    "events": "^3.0.0",
+    "jest": "^23.6.0",
+    "jest-json-reporter": "^1.2.2",
+    "mkdirp": "^0.5.1",
+    "os": "^0.1.1",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "respawn": "^2.5.0",
+    "rimraf": "^2.6.2",
+    "webpack-node-externals": "^1.7.2"
   }
 }

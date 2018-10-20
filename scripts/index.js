@@ -3,7 +3,8 @@
 
 const commands = [
     'start',
-    'start-frontend'
+    'start-frontend',
+    'start-backend'
 ];
 
 const command = process.argv[2]; // получаем команду из env
