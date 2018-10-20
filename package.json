@@ -1,0 +1,39 @@
+{
+  "name": "monitoring-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./scripts/index.js start",
+    "start-frontend": "./scripts/index.js start-frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hydrock/monitoring-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hydrock/monitoring-ui/issues"
+  },
+  "homepage": "https://github.com/Hydrock/monitoring-ui#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "arui-presets": "^5.0.2",
+    "arui-presets-ts": "^2.0.2",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.2",
+    "webpack": "^4.21.0",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "arui-feather": "^12.11.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
